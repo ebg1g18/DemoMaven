@@ -19,7 +19,9 @@ public class FizzBuzz {
             {
                 output_string += String.valueOf(i);
             }
-            output_string += ", ";
+            if (i < maxVal) {
+                output_string += ", ";
+            }
         }
 
 
